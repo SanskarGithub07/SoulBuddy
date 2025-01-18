@@ -1,8 +1,6 @@
 const apiUrl = "https://api.prokerala.com/v2/horoscope/daily";
 
-const apiKey = "";
-
-async function fetchDailyHoroscope(sign, dateTime) {
+export async function fetchDailyHoroscope(sign, dateTime, apiKey) {
   try {
     const encodedDateTime = encodeURIComponent(dateTime);
 
@@ -34,7 +32,3 @@ async function fetchDailyHoroscope(sign, dateTime) {
     console.error("Failed to fetch horoscope:", error);
   }
 }
-
-const userSign = "virgo"; 
-const dateTime = "2025-01-18T15:19:21+05:30"; 
-fetchDailyHoroscope(userSign, dateTime);

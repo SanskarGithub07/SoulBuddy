@@ -1,6 +1,7 @@
-const fs = require('fs');
+import fs from 'fs';
+import dotenv from 'dotenv';
 
-require('dotenv').config();
+dotenv.config();
 
 const clientId = process.env.CLIENT_ID;
 const clientSecret = process.env.CLIENT_SECRET;
