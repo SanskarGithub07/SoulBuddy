@@ -1,5 +1,6 @@
 import {fetchDailyHoroscope} from './getHoroscope.js';
 import {fetchKundaliDetails} from './fetchKundali.js';
+import { fetchChart } from './fetchChart.js';
 
 const apiKey = "";
 
@@ -13,3 +14,12 @@ const datetime = "2025-01-18T15:19:21+05:30";
 const language = "en"; 
 
 fetchKundaliDetails(ayanamsa, coordinates, datetime, language, apiKey);
+
+const la = 'en'; 
+const chartType = 'rasi';
+const chartStyle = 'north-indian'; 
+const format = 'svg'; 
+
+fetchChart(ayanamsa, coordinates, datetime, la, chartType, chartStyle, format, apiKey);
+
+

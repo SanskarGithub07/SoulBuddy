@@ -2,12 +2,9 @@ const apiUrl = "https://api.prokerala.com/v2/astrology/kundli/advanced";
 
 export async function fetchKundaliDetails(ayanamsa, coordinates, datetime, la, apiKey) {
     try {
-      const encodedCoordinates = coordinates;
       const encodedDatetime = encodeURIComponent(datetime);
-      const encodedAyanamsa = ayanamsa;
-      const encodedLa = la;
-  
-      const apiUrlWithParams = `${apiUrl}?ayanamsa=${encodedAyanamsa}&coordinates=${encodedCoordinates}&datetime=${encodedDatetime}&la=${encodedLa}`;
+
+      const apiUrlWithParams = `${apiUrl}?ayanamsa=${ayanamsa}&coordinates=${coordinates}&datetime=${encodedDatetime}&la=${la}`;
   
       const headers = new Headers({
         "Authorization": `Bearer ${apiKey}`,
