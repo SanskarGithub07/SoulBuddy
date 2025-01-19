@@ -51,14 +51,14 @@ Based on the provided details, the platform generates personalized recommendatio
 
 ### Step 3: Chatbot Interaction
 The user can engage with the AI chatbot to receive personalized spiritual advice, insights, and guidance for any queries they may have. The chatbot is designed to explain complex astrological concepts in a user-friendly manner.
-![logo]()
+![logo](https://github.com/SanskarGithub07/SoulBuddy/blob/master/IMAGES%20ALL/WhatsApp%20Image%202025-01-19%20at%2007.59.16.jpeg)
 ## Technologies Used 🖥️
 - **Frontend** ✨: HTML, CSS, JavaScript
 - **Backend** 💻: Python, Flask, Django (for AI models and chatbot interaction)
 - **Database** 🗃️: MySQL, PostgreSQL (for storing user details, recommendations, and astrology data)
 - **AI Models** 🤖: TensorFlow, PyTorch (for generating astrology insights and chatbot functionalities)
 - **Astrological Data** 🌙: Vedic astrology and numerology algorithms
-![logo]()
+
 ## Future Enhancements 🚀
 Future updates may include:
 - Integrating more detailed astrology and numerology algorithms. 🔮
