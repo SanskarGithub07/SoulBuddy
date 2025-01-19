@@ -11,7 +11,7 @@ Users provide their birth details, which are used to generate a personalized spi
 - **Time of Birth** 🕰️
 - **Gender** 🚻
 - **State and City of Birth** 🌍
-
+![logo](https://github.com/SanskarGithub07/SoulBuddy/blob/master/IMAGES%20ALL/WhatsApp%20Image%202025-01-19%20at%2007.28.46.jpeg)
 ### Core Features 💎
 
 #### Kundali & Horoscope Generation 🔮
@@ -22,23 +22,23 @@ SoulBuddy generates the user's **Kundali** (birth chart) using their birth detai
 - Health and emotional well-being 🌿
 
 The system also provides daily and monthly horoscopes to give users insights into their day-to-day life and upcoming events.
-
+![logo](https://github.com/SanskarGithub07/SoulBuddy/blob/master/IMAGES%20ALL/WhatsApp%20Image%202025-01-19%20at%2007.28.15.jpeg)
 #### AI Recommendations 🤖
 Based on the Kundali and horoscope analysis, SoulBuddy provides AI-driven recommendations in the following areas:
 - **Gemstone Suggestions** 💎: Personalized gemstone recommendations to enhance the user's life based on their zodiac sign and numerology.
 - **Pooja (Rituals) Recommendations** 🕉️: Suggestions for poojas and rituals along with their significance, benefits, and instructions.
 - **Do’s and Don’ts** 🚫: A list of dos and don'ts based on astrological insights to guide the user towards a more balanced life.
-
+![logo]()
 #### Spiritual Content Delivery 🧘‍♀️
 SoulBuddy tailors spiritual content according to the user’s horoscope insights:
 - **Meditation and Workout Suggestions** 🧘‍♀️🏋️‍♂️: Meditation and exercise routines aligned with the user's zodiac sign and personal energy needs.
 - **Sleep Content** 😴: Customized sleep advice based on astrological and numerological factors to enhance the user’s rest and rejuvenation.
-
+![logo]()
 ### Chatbot Interaction 💬
 SoulBuddy features a natural language chatbot for spiritual advice. The chatbot provides the following functionalities:
 - **Instant Recommendations** ⚡: Users can interact with the chatbot to receive personalized spiritual guidance and predictions.
 - **Quick Explanations** 📖: The chatbot offers brief, easy-to-understand explanations of the provided recommendations and predictions.
-
+![logo]()
 ## How to Use SoulBuddy
 
 ### Step 1: Provide Birth Details
@@ -49,14 +49,14 @@ Based on the provided details, the platform generates personalized recommendatio
 
 ### Step 3: Chatbot Interaction
 The user can engage with the AI chatbot to receive personalized spiritual advice, insights, and guidance for any queries they may have. The chatbot is designed to explain complex astrological concepts in a user-friendly manner.
-
+![logo]()
 ## Technologies Used 🖥️
 - **Frontend** ✨: HTML, CSS, JavaScript
 - **Backend** 💻: Python, Flask, Django (for AI models and chatbot interaction)
 - **Database** 🗃️: MySQL, PostgreSQL (for storing user details, recommendations, and astrology data)
 - **AI Models** 🤖: TensorFlow, PyTorch (for generating astrology insights and chatbot functionalities)
 - **Astrological Data** 🌙: Vedic astrology and numerology algorithms
-
+![logo]()
 ## Future Enhancements 🚀
 Future updates may include:
 - Integrating more detailed astrology and numerology algorithms. 🔮
