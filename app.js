@@ -9,6 +9,7 @@ const port = 3000;
 app.use(bodyParser.urlencoded({ extended: true }));
 app.set('view engine', 'ejs');
 app.use(express.static('public'));
+app.set('views', './views');
 
 function truncateToTwoDecimalPlaces(value) {
     return Math.floor(value * 100) / 100;

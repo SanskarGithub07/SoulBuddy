@@ -1,7 +1,21 @@
 {
   "dependencies": {
+    "axios": "^1.7.9",
+    "body-parser": "^1.20.3",
     "dotenv": "^16.4.7",
+    "ejs": "^3.1.10",
+    "express": "^4.21.2",
     "node-fetch": "^3.3.2"
   },
-  "type": "module"
+  "type": "module",
+  "name": "soulbuddy",
+  "description": "SoulBuddy is an AI-powered platform that generates personalized spiritual guidance through astrology and numerology. This system provides insights, recommendations, and rituals based on the user's birth details, along with an interactive chatbot for spiritual advice. The platform is designed to deliver tailored advice that aligns with each user's unique spiritual path.",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "start":"node app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
