@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kundali Result</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Kundali Analysis</h1>
+        
+        <div class="user-details">
+            <h2>Personal Details</h2>
+            <div class="details-grid">
+                <p><strong>Name:</strong> <%= data.userData.name %></p>
+                <p><strong>Date of Birth:</strong> <%= data.userData.dateOfBirth %></p>
+                <p><strong>Time:</strong> <%= data.userData.time %></p>
+                <p><strong>Location:</strong> <%= data.userData.city %>, <%= data.userData.state %></p>
+            </div>
+        </div>
+
+        <h2>Your Kundali Chart:</h2>
+    <div>
+        <img src="<%= data.kundaliData.chart %>" alt="Kundali Chart" />
+    </div>
+
+    <div class="horoscope">
+        <h3>Daily Horoscope for <%= data.userData.name %></h3>
+        <p><%= data.horoscope %></p>
+    </div>
+
+        <div class="kundali-details">
+            <h2>Kundali Information</h2>
+            
+            <% if (data.kundaliData.data) { %>
+                <% if (data.kundaliData.data.nakshatra_details) { %>
+                    <div class="detail-section">
+                        <h3>Nakshatra Details</h3>
+                        <pre><%= JSON.stringify(data.kundaliData.data.nakshatra_details, null, 2) %></pre>
+                    </div>
+                <% } %>
+
+                <% if (data.kundaliData.data.yoga_details) { %>
+                    <div class="detail-section">
+                        <h3>Yoga Details</h3>
+                        <pre><%= JSON.stringify(data.kundaliData.data.yoga_details, null, 2) %></pre>
+                    </div>
+                <% } %>
+
+                <% if (data.kundaliData.data.dasha_periods) { %>
+                    <div class="detail-section">
+                        <h3>Dasha Periods</h3>
+                        <pre><%= JSON.stringify(data.kundaliData.data.dasha_periods, null, 2) %></pre>
+                    </div>
+                <% } %>
+            <% } %>
+        </div>
+
+        <div class="actions">
+            <a href="/" class="back-btn">Generate New Kundali</a>
+        </div>
+    </div>
+</body>
+</html>

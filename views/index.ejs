@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mystik - Professional Astrology & Healing</title>
+    <link rel="stylesheet" href="/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="#" class="logo">mystik</a>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#consultation">Consultation</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </button>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+<section id="home" class="hero">
+    <div class="hero-content">
+        <h1>Astrology Readings & Shamanic Healing</h1>
+        <p>Discover your celestial path with ancient wisdom and modern insight</p>
+        <!-- <a href="#consultation" class="cta-button">Book a Session</a> -->
+        <button class="cta-button" onclick="openForm()">Check your Zodiac</button>
+    </div>
+</section>
+
+<!-- Form Dialog -->
+<div id="form-dialog" class="form-dialog hidden">
+    <div class="form-dialog-content">
+        <span class="close-button" onclick="closeForm()">&times;</span>
+        <h3>Schedule Your Session</h3>
+        <div class="user-input-form">
+            <h2>Generate Your Kundali</h2>
+            <form action="/submit" method="POST">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input 
+                        type="text" 
+                        id="name" 
+                        name="name" 
+                        placeholder="Enter your full name"
+                        required
+                    >
+                </div>
+    
+                <div class="form-group">
+                    <label for="dateOfBirth">Date of Birth</label>
+                    <input 
+                        type="date" 
+                        id="dateOfBirth" 
+                        name="dateOfBirth" 
+                        required
+                    >
+                </div>
+    
+                <div class="form-group">
+                    <label for="time">Time of Birth</label>
+                    <input 
+                        type="time" 
+                        id="time" 
+                        name="time" 
+                        required
+                    >
+                </div>
+    
+                <div class="form-group">
+                    <label for="gender">Gender</label>
+                    <select id="gender" name="gender" required>
+                        <option value="">Select your gender</option>
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+    
+                <div class="form-group">
+                    <label for="state">State</label>
+                    <input 
+                        type="text" 
+                        id="state" 
+                        name="state" 
+                        placeholder="Enter your state"
+                        required
+                    >
+                </div>
+    
+                <div class="form-group">
+                    <label for="city">City</label>
+                    <input 
+                        type="text" 
+                        id="city" 
+                        name="city" 
+                        placeholder="Enter your city"
+                        required
+                    >
+                </div>
+    
+                <button type="submit">Generate Kundali</button>
+            </form>
+        </div>
+    
+    </div>
+</div>
+
+
+        
+    </main>
+    <main>
+        <!-- Insights Section -->
+        <section class="insights">
+          <h2>Personalized Insights</h2>
+          <div class="card-container">
+            <div class="card" onclick="showService('daily-horoscope')">
+              <div class="card-icon">&#9733;</div>
+              <h3>Daily Horoscope</h3>
+              <p>Get guidance for your day based on the stars.</p>
+            </div>
+            <div class="card" onclick="showService('birth-chart')">
+              <div class="card-icon">&#9788;</div>
+              <h3>Birth Chart Overview</h3>
+              <p>Discover key insights from your astrological chart.</p>
+            </div>
+            <div class="card" onclick="showService('recommendations')">
+                <div class="card-icon">&#9790;</div>
+                <h3>Recommendations</h3>
+                <p>Understand the impact of planetary transitions on your life.</p>
+              </div>
+          </div>
+    
+          <!-- Sample Services -->
+          <div id="daily-horoscope" class="sample-service">
+            <h3>Daily Horoscope</h3>
+            <p>Today is a day to focus on your goals and remain optimistic. Trust the universe's timing.</p>
+          </div>
+    
+          <div id="birth-chart" class="sample-service">
+            <h3>Birth Chart Overview</h3>
+            <p>Your Sun sign reveals your core identity, while your Moon sign reflects your emotional side.</p>
+            
+            <div id="birthchart-image-container">
+                <img id="birthchart-image" src="../chart.svg" alt="Birth Chart">
+            </div>
+            
+          </div>
+
+          <div id="recommendations" class="sample-service">
+            <h2>Personal Growth Recommendations</h2>
+            <div class="recommendation-container">
+                <ul id="recommendation-list">
+                    <!-- The recommendations will be dynamically injected here by JavaScript -->
+                </ul>
+            </div>
+        </div>
+
+        </section>
+        <section id="about" class="about">
+            <h2>About Holistic Healing</h2>
+            <p>Holistic healing is an integrative approach that addresses emotional, physical, and spiritual factors affecting a person. This interconnection of body, mind, and spirit is crucial for harmonious existence and well-being. At Mystik, we combine the ancient wisdom of astrology with modern healing arts to provide a comprehensive path to self-discovery and personal growth.</p>
+            <a href="#" class="learn-more-button">Learn More</a>
+        </section>
+
+        <section id="consultation" class="consultation">
+            <div class="consultation-image"></div>
+            <div class="consultation-content">
+                <h2>Astrological Consultation</h2>
+                <h3>A Sensitive, In-depth Discussion about Your Horoscope and Potentials</h3>
+                <p>With years of counseling experience, we help you understand the richness of your full potential as revealed in your birth chart. Together, we'll explore your major challenges and the triumphs you are destined to achieve. Our personalized sessions offer insights that can guide you towards a more fulfilling life path.</p>
+                <a href="#" class="cta-button">Schedule Your Session</a>
+            </div>
+        </section>
+        <!-- Chatbot Section -->
+        <section class="chatbot">
+          <h2>Spiritual Advisor Chatbot</h2>
+          <div class="chatbot-container">
+            <div id="chat-window">
+              <div id="messages"></div>
+            </div>
+            <input type="text" id="chat-input" placeholder="Ask your question...">
+            <button id="send-btn">Send</button>
+          </div>
+        </section>
+      </main>
+      <section id="meditation" class="content-section">
+        <div class="content-container">
+            <img src="/images/workout2.jpg" alt="Meditation" class="content-image">
+            <div class="content-text">
+                <h2>Meditation Aligned with Your Zodiac</h2>
+                <p>
+                    Aries: Practice breathing exercises to calm your fiery energy.<br>
+                    Taurus: Ground yourself with body scan meditations.<br>
+                    Gemini: Use guided visualizations to focus your dual energies.<br>
+                    Cancer: Meditate near water to feel emotionally balanced.<br>
+                    Leo: Focus on heart-centered meditations to amplify your warmth.<br>
+                    Virgo: Engage in mindfulness exercises to quiet perfectionist tendencies.<br>
+                    Libra: Find harmony through balancing breathwork.<br>
+                    Scorpio: Dive deep into transformative meditations.<br>
+                    Sagittarius: Explore expansive guided meditations for adventure within.<br>
+                    Capricorn: Structure your practice with daily mindful moments.<br>
+                    Aquarius: Embrace innovative meditation techniques like sound baths.<br>
+                    Pisces: Immerse yourself in creative or dreamlike visualizations.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Workout Section -->
+    <section id="workout" class="content-section">
+        <div class="content-container">
+            <img src="/images/workout1.jpg" alt="Workout" class="content-image">
+            <div class="content-text">
+                <h2>Workout Routines for Your Zodiac</h2>
+                <p>Stay fit with exercises designed for your energy levels and astrological alignment.</p>
+                <button onclick="showSuggestions('workout')" class="cta-button">Get Suggestions</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sleep Section -->
+    <section id="sleep" class="content-section">
+        <div class="content-container">
+            <img src="/images/sleep.jpg" alt="Sleep" class="content-image">
+            <div class="content-text">
+                <h2>Personalized Sleep Content</h2>
+                <p>Enjoy better sleep with advice tailored to your astrological sign and daily rhythms.</p>
+                <button onclick="showSuggestions('sleep')" class="cta-button">Get Suggestions</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Suggestion Display -->
+    <div id="suggestion-display" class="hidden suggestion-display"></div> 
+  </main>
+
+<footer>
+    <div class="footer-content">
+        <div class="footer-section">
+            <h4>Contact Us</h4>
+            <p>Email: info@mystik.com</p>
+            <p>Phone: (555) 123-4567</p>
+        </div>
+        <div class="footer-section">
+            <h4>Follow Us</h4>
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+        <div class="footer-section">
+            <h4>Newsletter</h4>
+            <form class="newsletter-form">
+                <input type="email" placeholder="Enter your email" required>
+                <button type="submit">Subscribe</button>
+            </form>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>&copy; 2025 Mystik. All rights reserved.</p>
+    </div>
+</footer>
+
+<script src="/script.js"></script>
+</body>
+</html>
