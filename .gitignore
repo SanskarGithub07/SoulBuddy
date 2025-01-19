@@ -2,3 +2,4 @@
 node_modules
 access_token.txt
 chart.svg
+.vercel
