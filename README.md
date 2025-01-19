@@ -28,17 +28,19 @@ Based on the Kundali and horoscope analysis, SoulBuddy provides AI-driven recomm
 - **Gemstone Suggestions** 💎: Personalized gemstone recommendations to enhance the user's life based on their zodiac sign and numerology.
 - **Pooja (Rituals) Recommendations** 🕉️: Suggestions for poojas and rituals along with their significance, benefits, and instructions.
 - **Do’s and Don’ts** 🚫: A list of dos and don'ts based on astrological insights to guide the user towards a more balanced life.
-![logo]()
+![logo](https://github.com/SanskarGithub07/SoulBuddy/blob/master/IMAGES%20ALL/WhatsApp%20Image%202025-01-19%20at%2007.29.21.jpeg
+)
 #### Spiritual Content Delivery 🧘‍♀️
 SoulBuddy tailors spiritual content according to the user’s horoscope insights:
 - **Meditation and Workout Suggestions** 🧘‍♀️🏋️‍♂️: Meditation and exercise routines aligned with the user's zodiac sign and personal energy needs.
 - **Sleep Content** 😴: Customized sleep advice based on astrological and numerological factors to enhance the user’s rest and rejuvenation.
-![logo]()
+![logo](https://github.com/SanskarGithub07/SoulBuddy/blob/master/IMAGES%20ALL/WhatsApp%20Image%202025-01-19%20at%2007.30.07.jpeg
+)
 ### Chatbot Interaction 💬
 SoulBuddy features a natural language chatbot for spiritual advice. The chatbot provides the following functionalities:
 - **Instant Recommendations** ⚡: Users can interact with the chatbot to receive personalized spiritual guidance and predictions.
 - **Quick Explanations** 📖: The chatbot offers brief, easy-to-understand explanations of the provided recommendations and predictions.
-![logo]()
+![logo](https://github.com/SanskarGithub07/SoulBuddy/blob/master/IMAGES%20ALL/WhatsApp%20Image%202025-01-19%20at%2007.32.23.jpeg)
 ## How to Use SoulBuddy
 
 ### Step 1: Provide Birth Details
