@@ -11,7 +11,7 @@ Users provide their birth details, which are used to generate a personalized spi
 - **Time of Birth** 🕰️
 - **Gender** 🚻
 - **State and City of Birth** 🌍
-![logo](https://github.com/SanskarGithub07/SoulBuddy/blob/master/IMAGES%20ALL/WhatsApp%20Image%202025-01-19%20at%2007.28.46.jpeg)
+![logo](https://github.com/SanskarGithub07/SoulBuddy/blob/master/IMAGES%20ALL/WhatsApp%20Image%202025-01-19%20at%2008.08.57.jpeg)
 ### Core Features 💎
 
 #### Kundali & Horoscope Generation 🔮
@@ -58,7 +58,7 @@ The user can engage with the AI chatbot to receive personalized spiritual advice
 - **Database** 🗃️: MySQL, PostgreSQL (for storing user details, recommendations, and astrology data)
 - **AI Models** 🤖: TensorFlow, PyTorch (for generating astrology insights and chatbot functionalities)
 - **Astrological Data** 🌙: Vedic astrology and numerology algorithms
-
+![logo](https://github.com/SanskarGithub07/SoulBuddy/blob/master/IMAGES%20ALL/WhatsApp%20Image%202025-01-19%20at%2007.28.46.jpeg)
 ## Future Enhancements 🚀
 Future updates may include:
 - Integrating more detailed astrology and numerology algorithms. 🔮
