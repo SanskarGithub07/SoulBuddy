@@ -137,7 +137,7 @@ function calculateRashi(birthDate, time) {
 app.post('/submit', async (req, res) => {
   const { name, dateOfBirth, time, gender, state, city } = req.body;
 
-  const apiKey = ''; // Store this in environment variables
+  const apiKey = 'eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIzMjljZmFiNS0yOTc3LTQzOTQtYmVlZi03ZmJiY2IxMDI0OTEiLCJqdGkiOiJhZTgyMjkzZGIzOTYzNjFjZmM0NjE4Njg4MmI0MjU4OGMyMjQ1MTNiZGE2ZDMyNzAwNTZlOWQ3OTJhZDc5ZGZiMDZmYmM4ZjY1MGFkYjkyZSIsImlhdCI6MTczNzI2NDA1NC40Mzc1ODYsIm5iZiI6MTczNzI2NDA1NC40Mzc1ODgsImV4cCI6MTczNzI2NzY1NC40Mzc0NzgsInN1YiI6IjE1ZmZiOTRiLTY5NDUtNGVlMS04MWQxLWRhMDUzN2Q3N2Q1MSIsInNjb3BlcyI6W10sImNyZWRpdHNfcmVtYWluaW5nIjoxMTk3LCJyYXRlX2xpbWl0cyI6W3sicmF0ZSI6NSwiaW50ZXJ2YWwiOjYwfV19.A4UHPsg9yoPgyd60hjGzBx_RcgDV3fVM6XhVmbJ7DeIZpCR4TmSk0shxRsXatdVaaOdVhFz4otLtRgHSLRAdy7wnCxCMyt5NE1CtFnsfEcYHSJ_GUabYCg2b8blXnAidl0dpOjw2805jTY_-Il243hL4PX5Jg8T2l5o4y3fz3WjfMI7odvX-Gky5TuZ_FYDWVVbUu1TF4caaAzDcfmEk4YeXPAXQDpfggh-SDN-Nf_xii36OXV0boCESXtPWtF3TtWO45p4mvjm0wzOmuedN9AFQS6aCrkbloMoAF3jUadCGYh5uFv5oMA0Hq83InjTYTCQmudT4jPVhZT69_XdTTw'; // Store this in environment variables
   const ayanamsa = '1';
   const coordinates = await getCoordinatesNominatim(city, state);
   const la = 'en';
